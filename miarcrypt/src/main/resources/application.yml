@@ -1,0 +1,6 @@
+spring:
+  security:
+    user:
+      name: arno
+      password: pass123
+      roles: USER

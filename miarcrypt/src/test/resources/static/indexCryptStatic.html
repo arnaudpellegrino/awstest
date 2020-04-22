@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MIARCrypt</title>
+</head>
+<body>
+
+<h1> -- Get Ready to MIARCrypt -- </h1>
+
+<h2> ** MiarCrypt</h2>
+<form method="post" action="http://localhost:8081/miar/crypt/">
+
+<table> 
+	<tr>
+		<td valign="top" align="right">
+			Message : 
+		</td>
+		<td valign="top"  align="left">
+			<textarea name="textToCrypt" rows="5" cols="30">
+			</textarea>
+		</td>
+	</tr>
+	<tr> 
+		<td valign="top" align="right">
+			Key : 
+		</td>
+		<td valign="top" align="left">
+			<input type="text" name="key" />
+		</td>
+	</tr>
+	<tr> 
+		<td valign="top" align="center" colspan="2"> 
+			<input type="submit" value="MIARCRYPT">
+			<input type="reset" value="RESET"> 
+		</td>
+	</tr>
+</table>
+
+</form>
+
+
+
+<h2> ** MiarDecrypt </h2>
+<form method="post" action="http://localhost:8081/miar/decrypt/">
+
+<table> 
+	<tr>
+		<td valign="top" align="right">
+			Crypted Message : 
+		</td>
+		<td valign="top"  align="left">
+			<input type="cryptedmessage" />
+		</td>
+	</tr>
+	<tr> 
+		<td valign="top" align="right">
+			Key : 
+		</td>
+		<td valign="top" align="left">
+			<input type="text" name="key" />
+		</td>
+	</tr>
+	<tr> 
+		<td valign="top" align="center" colspan="2"> 
+			<input type="submit" value="MIARDECRYPT">
+			<input type="reset" value="RESET"> 
+		</td>
+	</tr>
+</table>
+
+</form>
+
+
+
+
+</body>
+</html>
+
+<!-- <input type"text" name="text" /><br/> -->
