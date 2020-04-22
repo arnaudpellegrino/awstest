@@ -50,7 +50,8 @@
 		
 		<!-- 4.2.4.RELEASE / 4.0.3.RELEASE -->
 		<spring.core.version>4.2.4.RELEASE</spring.core.version>
-		<spring.security.version>4.2.10.RELEASE</spring.security.version>
+		<!--  Version to avoid security problems 5.3.19.RELEASE  -->
+		<spring.security.version>5.3.0.RELEASE</spring.security.version>
 		<!-- 
 		<spring.security.version>4.0.3.RELEASE</spring.security.version>
 		<spring.security.version>4.3.6.RELEASE</spring.security.version>
