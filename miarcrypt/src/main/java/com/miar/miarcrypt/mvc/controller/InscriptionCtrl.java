@@ -24,7 +24,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.miar.miarcrypt.common.util.HibernateUtil;
+//TODO : Check how to manage Authentication
+//import com.miar.miarcrypt.common.util.HibernateUtil;
 import com.miar.miarcrypt.domain.User;
 import com.miar.miarcrypt.model.Inscription;
 import com.miar.miarcrypt.model.Login;
@@ -69,9 +70,15 @@ public class InscriptionCtrl {
         long idConfirm = now.getTime();
         user.setIdConfirm(idConfirm);
         
+        
+      //TODO : Check how to manage Registration
+        
+        
         // TODO : refactor with a Service (xxxxxSRVC class)
         // START To be refactored
 		        //Get Session
+        
+        /*
         		try{
         			SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
     		        org.hibernate.Session session = sessionFactory.openSession();
@@ -150,7 +157,7 @@ public class InscriptionCtrl {
 		            return "inscription";
 		        }
 		        
-		        
+		   */     
         // END to be refactored
 		        
 		// TODO : Redirect to inscription to wait for he user to validate the account    
@@ -191,7 +198,9 @@ public class InscriptionCtrl {
 				// ?{confirmId} 
 				Login loginForm = new Login();
 		        model.put("loginForm", loginForm);
-				
+		
+		      //TODO : Check how to manage Inscription
+		      /*
 		         try{
 	        			SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 	    		        //org.hibernate.Session session = sessionFactory.getCurrentSession();
@@ -247,6 +256,9 @@ public class InscriptionCtrl {
 	        			model.put("errorMessage", "This email/Username  does not exist" );
 			            return "index";
 	        		}
+	        	*/
+		        return "index";
+		        
 	}
 	
 	

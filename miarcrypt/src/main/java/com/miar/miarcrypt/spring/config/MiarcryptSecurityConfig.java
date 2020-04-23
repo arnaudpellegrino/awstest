@@ -55,7 +55,7 @@ public class MiarcryptSecurityConfig extends WebSecurityConfigurerAdapter {
 		
 	}
 	
-	/*
+
 	@Bean(name = "dataSource")
 	public DataSource getDataSource() {
 		
@@ -71,6 +71,6 @@ public class MiarcryptSecurityConfig extends WebSecurityConfigurerAdapter {
 	   
 	    return dataSourceLocal;
 	}
-	*/
+
 	
 }

@@ -60,5 +60,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry kind="lib" path="C:/Users/Arno/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arno/.m2/repository/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

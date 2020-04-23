@@ -22,8 +22,7 @@ G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\domain\User.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\dto\Person.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\filter\AuthenticationFilter.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\spring\mvc\controller\AppController.java
-G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\common\util\TestHibernate.java
+G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\MiarcryptApplication.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\mvc\controller\Welcome.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\service\LoginSRVC.java
 G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\spring\config\MiarcryptWebConfig.java
-G:\PROJETS\miarcrypt\miarcrypt\src\main\java\com\miar\miarcrypt\common\util\HibernateUtil.java

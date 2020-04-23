@@ -10,7 +10,8 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.miar.miarcrypt.common.util.HibernateUtil;
+// TODO : Check how to manage Authentication
+//import com.miar.miarcrypt.common.util.HibernateUtil;
 import com.miar.miarcrypt.domain.User;
 
 public class LoginSRVC {
@@ -52,9 +53,12 @@ public class LoginSRVC {
 	}
 	
 	
+	// TODO : Chech how to manage Authentication
 	public User authentication(){
 		
 		User user = null ;
+
+		/*
 		//Get Session
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         //Session session = sessionFactory.getCurrentSession();
@@ -83,6 +87,7 @@ public class LoginSRVC {
         //terminate session factory, otherwise program won't end
         //sessionFactory.close();
 		session.close();
+		*/
 		
 		return user;
 		

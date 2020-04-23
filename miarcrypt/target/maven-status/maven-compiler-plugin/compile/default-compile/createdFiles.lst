@@ -14,16 +14,15 @@ com\miar\miarcrypt\spring\mvc\controller\AppController.class
 com\miar\miarcrypt\service\EncodeSRVC.class
 com\miar\miarcrypt\spring\init\MiarcryptSecurityInitializer.class
 com\miar\miarcrypt\spring\mvc\controller\PersonController.class
-com\miar\miarcrypt\common\util\HibernateUtil.class
 com\miar\miarcrypt\model\Login.class
 com\miar\miarcrypt\dto\Person.class
 com\miar\miarcrypt\domain\User.class
 com\miar\miarcrypt\spring\mvc\controller\MiarController.class
 com\miar\miarcrypt\mvc\controller\Welcome.class
 com\miar\miarcrypt\filter\AuthenticationFilter.class
+com\miar\miarcrypt\MiarcryptApplication.class
 com\miar\miarcrypt\mvc\controller\MessageCtrl.class
 com\miar\miarcrypt\spring\init\MiarcryptWebInitializer.class
-com\miar\miarcrypt\common\util\TestHibernate.class
 com\miar\miarcrypt\domain\Message.class
 com\miar\miarcrypt\service\MessageService.class
 com\miar\miarcrypt\business\Crypt.class

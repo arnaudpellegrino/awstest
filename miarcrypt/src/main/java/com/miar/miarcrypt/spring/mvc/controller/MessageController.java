@@ -22,12 +22,12 @@ class MessageController {
 	MessageService messageService;
 	
 	
-	@GetMapping("/hello")
-	public Person hello() {
-		
-		return messageService.hello();
-		
-	}
+//	@GetMapping("/hello")
+//	public Person hello() {
+//		
+//		return messageService.hello();
+//		
+//	}
 
   //@RequestBody
   @PostMapping("/crypt")

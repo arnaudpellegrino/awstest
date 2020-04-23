@@ -17,7 +17,8 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.miar.miarcrypt.common.util.HibernateUtil;
+//TODO : Check how to manage Authentication
+//import com.miar.miarcrypt.common.util.HibernateUtil;
 import com.miar.miarcrypt.domain.Message;
 //import sun.misc.BASE64Decoder;
 //import sun.misc.BASE64Encoder;
@@ -208,7 +209,7 @@ public class EncodeSRVC {
 		   return null;
 	   }
 	   /**
-	    * Method To Decrypt An Ecrypted String
+	    * Method To Decrypt A Crypted String
 	    */
 	   //public String decrypt(byte[] encryptedBytes) {
 	   public String decrypt(String _key, String _code ) {
@@ -218,7 +219,11 @@ public class EncodeSRVC {
 		   //byte[] bytesToDecrypt= encryptedBytes;
 		   byte[] bytesDecrypted = null;
 	       
+		   
+		   // TODO : Check how to get data from DB to decrypt
+	    /*
 	       try {
+	    	   
 	    	   
 	    	   // Get the encrypted message from DB 
 		    	   //Get Session
@@ -255,8 +260,14 @@ public class EncodeSRVC {
 	    	   logger.debug("ERREUR decrypt");
 	           e.printStackTrace();
 	       }
+	      
 	       return new String(bytesDecrypted) ;
+	      */
+		   
+		   // TODO : return decrypted String
+		   return new String(bytesDecrypted) ;
 	   }
+	       
 	   /**
 	    * Returns String From An Array Of Bytes
 	    */
